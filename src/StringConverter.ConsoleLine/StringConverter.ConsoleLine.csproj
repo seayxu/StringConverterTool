@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ApplicationIcon>0.ico</ApplicationIcon>
+    <AssemblyName>StringConverterTool</AssemblyName>
+    <RootNamespace>StringConverter.ConsoleLine</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackAsTool>true</PackAsTool>
+    <Authors>seay</Authors>
+    <Company>seay</Company>
+    <Product>String Converter</Product>
+    <Description>string converter for ascii and hex string</Description>
+    <PackageId>StringConverter</PackageId>
+    <PackageTags>StringConverter</PackageTags>
+    <IncludeContentInPack>true</IncludeContentInPack>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="../../dist/StringConverter.exe" />
+  </ItemGroup>
+
+</Project>
