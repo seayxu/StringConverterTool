@@ -15,6 +15,13 @@
     <PackageId>StringConverter</PackageId>
     <PackageTags>StringConverter</PackageTags>
     <IncludeContentInPack>true</IncludeContentInPack>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/seayxu/StringConverterTool</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/seayxu/StringConverterTool</PackageProjectUrl>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.1</Version>
+    <Copyright>Copyright © Seay 2018</Copyright>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="../../dist/StringConverter.exe" />
